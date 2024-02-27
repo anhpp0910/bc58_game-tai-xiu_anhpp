@@ -1,0 +1,33 @@
+@font-face {
+  font-family: fontGame;
+  src: url("./assets/Pony.ttf");
+}
+
+.gameContainer {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  font-family: fontGame;
+}
+
+.gameContainer img {
+  border-radius: 10px;
+}
+
+.btnTaiXiu {
+  font-weight: bold;
+  padding: 40px;
+  font-size: 40px;
+  border: 5px solid transparent;
+}
+
+.btnTaiXiu:focus {
+  border: 5px solid rgb(102, 102, 102, 0.4);
+  background-color: #bb2d3b;
+}
+
+.btnPlay {
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 20px;
+}
