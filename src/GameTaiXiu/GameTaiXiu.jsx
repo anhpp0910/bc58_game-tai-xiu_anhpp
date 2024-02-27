@@ -14,5 +14,3 @@ export default class GameTaiXiu extends Component {
     );
   }
 }
-
-// 4-10 xỉu

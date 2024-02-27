@@ -7,9 +7,9 @@ class KetQua extends Component {
     return (
       <div>
         <h2 className="text-danger">{result}</h2>
-        <h2 className="mt-4">BẠN CHỌN: {luaChon && luaChon} </h2>
-        <h3>Tổng số lần bạn thắng: {soLanThang}</h3>
-        <h3>Tổng số lần tung xúc xắc: {soLanDo}</h3>
+        <h2 className="mt-4">YOUR CHOICE: {luaChon && luaChon} </h2>
+        <h3>Winning number: {soLanThang}</h3>
+        <h3>Playing number: {soLanDo}</h3>
       </div>
     );
   }

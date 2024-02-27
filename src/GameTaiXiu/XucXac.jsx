@@ -6,7 +6,7 @@ class XucXac extends Component {
   render() {
     return (
       <div>
-        <h1 className="py-5 fw-fw-bold">GAME XÚC XẮC</h1>
+        <h1 className="py-5 fw-fw-bold">Sic Bo</h1>
         <div className="container d-flex justify-content-evenly">
           <button
             className="btn btn-danger btnTaiXiu"
@@ -14,7 +14,7 @@ class XucXac extends Component {
               this.props.handleChonTaiXiu(TAI);
             }}
           >
-            TÀI
+            BIG
           </button>
           <div>
             {this.props.mangXucXac.map((item, index) => {
@@ -34,7 +34,7 @@ class XucXac extends Component {
               this.props.handleChonTaiXiu(XIU);
             }}
           >
-            XỈU
+            SMALL
           </button>
         </div>
         <div className="playGame my-3">
